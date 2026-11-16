@@ -14,15 +14,14 @@
   <meta property="og:title" content="Gerald Demo Portal | Modern Educational Institution" />
   <meta property="og:description" content="An upgraded educational demo portal showcasing a clean, responsive institutional layout built with HTML, CSS, and JavaScript." />
   <meta property="og:site_name" content="Gerald Demo Portal" />
-  <!-- NOTE: Change the image name below to the exact name of an image in your assets folder -->
-  <meta property="og:image" content="https://geralddigital70.github.io/demo-portal-v2/assets/YOUR_IMAGE_NAME.jpg" />
+  <meta property="og:image" content="https://geralddigital70.github.io/demo-portal-v2/assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" />
 
   <!-- Twitter / X -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:url" content="https://geralddigital70.github.io/demo-portal-v2/" />
   <meta name="twitter:title" content="Gerald Demo Portal | Modern Educational Institution" />
   <meta name="twitter:description" content="An upgraded educational demo portal showcasing a clean, responsive institutional layout built with HTML, CSS, and JavaScript." />
-  <meta name="twitter:image" content="https://geralddigital70.github.io/demo-portal-v2/assets/YOUR_IMAGE_NAME.jpg" />
+  <meta name="twitter:image" content="https://geralddigital70.github.io/demo-portal-v2/assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" />
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css" />
@@ -64,8 +63,11 @@
   <!-- ===== HERO ===== -->
   <section class="hero" id="home">
     <div class="hero-slider">
-      <div class="slide active" style="background-image: url('assets/YOUR_IMAGE_NAME.jpg');"></div>
-      <!-- Add more slides here if you want -->
+      <!-- ONLY THE FIRST IMAGE SHOULD HAVE THE "active" CLASS -->
+      <div class="slide active" style="background-image: url('assets/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg');"></div>
+      <div class="slide" style="background-image: url('assets/jonakoh-_-r5lbaK3fDaM-unsplash.jpg');"></div>
+      <div class="slide" style="background-image: url('assets/nasa-Q1p7bh3SHj8-unsplash.jpg');"></div>
+      <div class="slide" style="background-image: url('assets/portraits-of-modern-dairy-pNnWdBqfOQ0-unsplash.jpg');"></div>
     </div>
     <div class="hero-overlay"></div>
     <div class="container hero-inner">
@@ -93,13 +95,98 @@
         Do It Know IT is an educational demo portal showcasing a clean,
         responsive institutional layout built with plain HTML, CSS and JavaScript.
       </p>
+      <div class="stats">
+        <div class="stat"><span class="stat-num">6</span><span class="stat-label">Faculties</span></div>
+        <div class="stat"><span class="stat-num">40+</span><span class="stat-label">Programmes</span></div>
+        <div class="stat"><span class="stat-num">10k+</span><span class="stat-label">Students</span></div>
+        <div class="stat"><span class="stat-num">25</span><span class="stat-label">Years</span></div>
+      </div>
     </div>
   </section>
 
-  <!-- (You can add back the Faculties, News, and Quick Links sections here exactly as they were in v1) -->
+  <!-- ===== FACULTIES ===== -->
+  <section class="section section-alt" id="faculties">
+    <div class="container">
+      <h2 class="section-title">Faculties</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Computing &amp; Informatics</h3>
+          <p>Software engineering, databases, networking and AI.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Engineering</h3>
+          <p>Civil, electrical and mechanical engineering programmes.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Business &amp; Economics</h3>
+          <p>Accounting, finance, marketing and entrepreneurship.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Education</h3>
+          <p>Teacher training and curriculum studies.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Health Sciences</h3>
+          <p>Nursing, public health and clinical sciences.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+        <article class="card">
+          <h3>Agriculture</h3>
+          <p>Agronomy, animal science and agribusiness.</p>
+          <a href="#" class="card-link">View programmes →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NEWS ===== -->
+  <section class="section" id="news">
+    <div class="container">
+      <h2 class="section-title">News &amp; Announcements</h2>
+      <div class="grid grid-3">
+        <article class="card news-card">
+          <div class="news-date">15 Nov 2026</div>
+          <h3>Graduation Ceremony</h3>
+          <p>The 15th graduation ceremony will be held at the main campus.</p>
+          <a href="#" class="card-link">Read more →</a>
+        </article>
+        <article class="card news-card">
+          <div class="news-date">02 Nov 2026</div>
+          <h3>New Intake Open</h3>
+          <p>Applications for the next academic intake are now open.</p>
+          <a href="#" class="card-link">Read more →</a>
+        </article>
+        <article class="card news-card">
+          <div class="news-date">20 Oct 2026</div>
+          <h3>Tech Innovation Week</h3>
+          <p>Students showcase AI and software projects on campus.</p>
+          <a href="#" class="card-link">Read more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUICK LINKS ===== -->
+  <section class="section section-alt" id="links">
+    <div class="container">
+      <h2 class="section-title">Quick Links</h2>
+      <div class="quick-links">
+        <a href="#" class="quick-link">Student Portal</a>
+        <a href="#" class="quick-link">e-Learning</a>
+        <a href="#" class="quick-link">Library</a>
+        <a href="#" class="quick-link">Timetables</a>
+        <a href="#" class="quick-link">Fees</a>
+        <a href="#" class="quick-link">Downloads</a>
+      </div>
+    </div>
+  </section>
 
   <!-- ===== CONTACT ===== -->
-  <section class="section section-alt" id="contact">
+  <section class="section" id="contact">
     <div class="container contact-inner">
       <h2 class="section-title">Contact</h2>
       <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
@@ -110,6 +197,17 @@
 
   <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Do It Know IT</strong>
+        <p>An educational demo portal. No real institution is represented.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
     <div class="container copyright">
       © 2026 Do It Know IT — Demo project. Built with HTML, CSS &amp; JS.
     </div>
